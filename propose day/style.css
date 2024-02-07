@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Salsa&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Salsa', cursive;
+    background-color: pink;
+}
+
+.bground{
+
+    padding:252px;
+}
+
+.gif{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt1{
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    left: 44%;
+    top: 63%;
+    padding-right: 0;
+}
+.txt2{
+    font-weight: bold;
+    font-size: 25px;
+    position: absolute;
+    left: 50%;
+    top:73%;
+    transform: translate(-50%,-50%);
+    padding-right: 0;
+    padding-left: 0;
+    line-height: 50px;
+}
+
+.ttl{
+    font-weight: bold;
+    font-size: 50px;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%,-50%);
+    padding-right: 0;
+}
+.ttl2{
+    font-weight: bold;
+    font-size: 50px;
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%,-50%);
+    padding-right: 0;
+}
+.day{
+    font-weight: bold;
+    font-size: 40px;
+    position: absolute;
+    left: 50%;
+    top: 18%;
+    transform: translate(-50%,-50%);
+    padding-right: 0;
+}
+
+#timer {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-55%,-50%);
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+#button1{
+    padding:15px 25px;
+    background-color: palevioletred;
+    border-radius: 5px;
+    border: 1px solid palevioletred;
+    font-weight: bold;
+    position: absolute;
+    left: 43%;
+    top:70%;
+    cursor: pointer;
+
+}
+#button2{
+    padding:15px 29px;
+    background-color: palevioletred;
+    border-radius: 5px;
+    border: 1px solid palevioletred;
+    margin-left: 30px;
+    font-weight: bold;
+    transition: .5s;
+    position: absolute;
+    left: 49%;
+    top:70%;
+    cursor: pointer;
+}
+
